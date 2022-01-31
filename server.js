@@ -6,6 +6,6 @@ app.get("/", (request, response) => {
   response.send(["dog","bog","sog","flog"])
 })
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log("EXPRESS IS AWAITING YOU")
 })
