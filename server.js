@@ -1,5 +1,5 @@
 const express = require("express")
-const port = 4000
+const { PORT = 4000 } = process.env;
 
 const app = express()
 app.get("/", (request, response) => {
